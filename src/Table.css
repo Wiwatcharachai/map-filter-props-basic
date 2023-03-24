@@ -1,0 +1,41 @@
+.nav{
+   display: flex;
+   background-color: aquamarine;
+   position: relative;
+   height: 500px;
+   width: 100%;
+}
+.nav-name{
+    display: flex;
+    position: absolute;
+}
+
+.nav-surname{
+    display: flex;
+    background-color: red;
+    position: absolute;
+    left: 700px;
+     
+}
+
+.nav-email{
+    display: flex;
+    background-color: brown;
+    position: absolute;
+    left: 2775%;
+}
+
+table,td,th {
+    border: 1px solid #ddd;
+    text-align: left;
+    
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    padding: 15px;
+  }
